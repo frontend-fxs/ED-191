@@ -4,7 +4,7 @@
 [Master Stylesheet]
 
 Project:    Rhythm
-Version:    2.9.7
+Version:    2.9.7 b        
 Last change:    22.11.2017
 Primary use:    MultiPurpose Template  
 -------------------------------------------------------------------*/
@@ -13,6 +13,7 @@ Primary use:    MultiPurpose Template
 @import "et-line.css";
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Dosis:300,400,700);
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900');
 
 /*------------------------------------------------------------------
 [Table of contents]
@@ -457,7 +458,7 @@ h1 {
 
 @media(min-width:768px) {
     h1 {
-        font-size: 35px;
+        font-size: 40px;
     }
 }
 
@@ -536,9 +537,9 @@ hr.black {
 }
 
 .font-alt {
-    font-family: Dosis, arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
 }
 
 .serif {
@@ -579,6 +580,7 @@ hr.black {
 
 .background h2 {
     font-size: 40px;
+
 }
 
 .background h3 {
@@ -1506,7 +1508,7 @@ a.bg-video-button-muted {
     font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.2em;
     line-height: 1.8;
     opacity: .9;
 }
@@ -2993,7 +2995,7 @@ a.logo:hover {
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.2em;
     line-height: 1.4;
 }
 
