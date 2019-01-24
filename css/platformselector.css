@@ -1,0 +1,144 @@
+.platform {
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+}
+
+.platform .inner,
+.platform .inner:hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    font-weight: 400;
+    color: rgba(255, 255, 255, .85);
+    background: rgba(0, 0, 0, .7);
+}
+
+.platform .inner input,
+.platform .inner:hover input {
+    color: #111;
+}
+
+.platform .inner.btn-w {
+    color: #111;
+    background: #fff;
+}
+
+.platform .inner a {
+    color: #fff;
+}
+
+.platform .inner.btn-w a {
+    color: #fff;
+}
+
+.platform .inner>span:nth-child(2),
+.platform .inner>span:nth-child(3),
+.platform .inner>span:nth-child(4) {
+    text-decoration: underline;
+}
+
+.platform .inner>span:hover {
+    text-decoration: none;
+}
+
+.platform .inner>span.active {
+    text-decoration: none;
+    font-weight: bold;
+    color: #E4871B;
+}
+
+.platform .inner>span,
+.platform .inner>a {
+    padding: 12px 0;
+    width: 100%;
+    display: block;
+}
+
+.platform .inner>a {
+    background-color: #e4871b;
+    color: white;
+    font-weight: 700;
+}
+
+.platform .inner>a>span {
+    text-decoration: none;
+    margin-left: 2rem;
+}
+
+.platform .inner .sendEmail {
+    padding: 1rem 0;
+    clear: both;
+}
+
+.platform .inner .sendEmail label {
+    display: block;
+    white-space: normal;
+    padding: 12px 0;
+}
+
+.platform .inner .sendEmail label input[type="checkbox"] {
+    margin-bottom: 5rem;
+    float: left;
+    margin-right: 1rem;
+}
+
+.platform .inner .sendEmail label span.terms {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+    display: table;
+}
+
+.platform .inner .sendEmail label span.terms a {
+    color: #e4871b;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.platform .inner .sendEmail label span.terms a:hover {
+    text-decoration: underline;
+}
+
+.platform .inner .sendEmail .send {
+    cursor: pointer;
+}
+
+.platform .inner .sendEmail .btn-cta {
+    color: #000;
+}
+
+.platform .inner .sendEmail label,
+.platform .inner>span:first-child {
+    text-transform: none;
+    text-align: left;
+    width: 100%;
+    display: block;
+}
+
+.platform .inner .thankYou {
+    background-color: #338473;
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0;
+    color: white;
+    float: left;
+    clear: both;
+    white-space: normal;
+    text-transform: initial;
+}
+
+.hidden {
+    display: none;
+    opacity: 0;
+}
+
+.custom-cta-cols {
+    max-width: 500px;
+    margin: auto;
+}
