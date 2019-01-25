@@ -579,7 +579,7 @@ hr.black {
 }
 
 .background h2 {
-    font-size: 40px;
+    font-size: 35px;
 
 }
 
@@ -1171,7 +1171,7 @@ a.btn-mod:focus {
 }
 
 .home-text .background {
-    background-color: #304C70;
+    background-color: rgba(51, 132, 115, 0.8);
     padding-bottom: 40px;
     transition: 0.5s padding ease-out;
     border-radius: 5px;
